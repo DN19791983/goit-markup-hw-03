@@ -270,8 +270,8 @@ body {
     font-size:26px;
     line-height:1.19;
     margin-bottom: 20px;
-    padding-top: 60px;
     justify-content: flex-start;
+    display: inline-block;
     color:var(--accent-color);
 }
 .footer-container {
@@ -288,8 +288,6 @@ body {
 }
 .address {
     justify-content: flex-start;
-    padding-bottom: 60px;
-    padding-top: 20px;
 }
 .posts-footer-address:not(:last-child) {
     margin-bottom: 9px;
